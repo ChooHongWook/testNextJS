@@ -25,6 +25,13 @@ const Header = () => (
           Second Post
         </Link>
       </li>
+      <li>
+        <Link
+          href="/post/test"
+        >
+          test Post
+        </Link>
+      </li>
     </ul>
   </header>
 )

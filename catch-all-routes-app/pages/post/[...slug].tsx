@@ -4,7 +4,7 @@ import Header from '../../components/header'
 const Comment = () => {
   const router = useRouter()
   const slug = (router.query.slug as string[]) || []
-
+  console.log("slug:",slug)
   return (
     <>
       <Header />
